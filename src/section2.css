@@ -1,0 +1,74 @@
+.container2{
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 100vh;
+
+
+}
+
+
+.right h1{
+    color:  rgba(2, 48, 71, 1);
+    
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.right p {
+    font-size: 16px;
+    line-height: 30px;
+    
+}
+
+.container2 .right button{
+    background-color:rgba(218, 114, 44, 1);
+    border-radius: 5px;
+    border: none;
+    padding: 14px;
+    
+
+
+}
+
+.vl {
+width: 20px;
+    background: #000;
+    height: 500px;
+    border-radius: 8px;
+    position:absolute;
+    left: 10%;
+    z-index: -1;
+  }
+
+.container2 .left .review-card{
+    background-color: #d8d8d8;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.2) ;
+    border-radius: 24px;
+    margin-bottom: 50px;
+}
+
+.review-cards .review-card .upper-section{
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    border-radius: 24px;
+    padding: 24px 32px ;
+    background:rgba(218, 114, 44, 1);
+}
+
+.review-cards .review-card:last-child .upper-section{
+    background-color: #6F7DFB;
+}
+
+.review-cards .review-card .lower-section .right h3{
+ font-size: 20px;
+ font-weight: 900;
+}
+
+.review-cards .review-card .lower-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+

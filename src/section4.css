@@ -1,0 +1,163 @@
+.app-section {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+height: 50vh;
+
+}
+
+
+.app-section .app-info{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.app-info h1{
+    font-family: "Raleway";
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: center;
+    
+}
+
+.stores{
+
+    display: flex;
+    justify-content: center;
+    
+    width: 85%;
+}
+
+.stores .store{
+display: flex;
+margin: 25px;
+}
+
+.stores .store h3{
+    padding: 0px;
+    padding-right: 50px;
+   
+    
+}
+
+
+.app-section .stores .store{
+    width: Fixed (310px)px;
+    height: Hug (100px)px;
+    top: 2561px;
+    left: 358px;
+    padding: 20px 31px 20px 31px;
+    gap: 14px;
+    opacity: 0px;
+    background: rgb(0, 0, 0);
+    color: white;
+
+    
+}
+
+
+.footer{
+    background: #000000;
+    height: 50vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    color: #fff;
+
+    
+  
+}
+
+.footer div{
+    display: flex;
+width: 100%;
+
+}
+
+.footer div ul li{
+    font-family: Poppins;
+    font-size: 16px;
+    
+    line-height: 36px;
+
+    
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    padding-right: 10px;
+    font-weight: 100;
+    padding: 4px;
+
+}
+
+ul li h3{
+    color: rgba(218, 114, 44, 1);
+}
+
+ul li div{
+    
+    height: 39px;
+    border-radius: 8px;
+    align-items: center;
+    background:#fff;
+    padding-left: 20px;
+    
+    
+}
+
+ul li div .textbox{
+    width: 350px;
+    border: none;
+    font-size: 16px;
+}
+ul li .subscribe{
+    width: 135px;
+    height: 30px;    
+    border-radius: 8px;
+    background: rgba(2, 48, 71, 1);
+    color: #fff;
+    font-size: 16px;
+
+    
+}
+
+/* 
+
+table{
+    width: 100%;
+    color: white;
+    border: solid white;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+text-align: center;
+
+}
+
+table thead th{
+    color: rgba(218, 114, 44, 1);
+
+}
+table tbody td{
+    
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 36px;
+    text-align: left;
+    display: inline-block;
+}
+
+.cell{
+    border: solid white;
+    padding: 0px;
+} */

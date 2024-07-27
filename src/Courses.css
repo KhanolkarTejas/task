@@ -1,0 +1,71 @@
+.courses-section {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #7A6CFF; /* Adjust background color as needed */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .courses-section h2 {
+    font-size: 50px; /* Increased font size for the heading */
+    margin-bottom: 20px;
+    font-weight: 900;
+    color: #333; /* Adjust heading color as needed */
+  }
+  
+  .courses-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px; /* Increased gap between the cards */
+    margin-bottom: 20px;
+  }
+  
+  .course-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px; /* Increased max-width */
+    flex: 1 1 400px; /* Ensure cards take up more space */
+    padding: 20px;
+    padding-top: 0px;
+    
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .course-info {
+    padding: 20px; /* Increased padding */
+  }
+  
+  .course-info h3 {
+    font-size: 24px; /* Increased font size for course title */
+    margin: 0;
+    color: #333; /* Adjust course title color as needed */
+  }
+  
+  .course-info p {
+    font-size: 18px; /* Increased font size for course duration */
+    margin: 5px 0 0;
+    color: #666; /* Adjust course duration color as needed */
+  }
+  
+  .all-courses-button {
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Increased padding for the button */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .all-courses-button:hover {
+    background-color: #e76b42;
+  }
+  
